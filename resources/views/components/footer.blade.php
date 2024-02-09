@@ -73,11 +73,11 @@
         <div>
             <div id="socials"> 
                 <h3>FOLLOW US</h3>
-                <img src="../../public/img/footer-facebook.png" alt="">
-                <img src="../assets/img/footer-twitter.png" alt="">
-                <img src="../assets/img/footer-youtube.png" alt="">
-                <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
+                <img src="{{ Vite::asset('public/img/footer-facebook.png')}}" alt="">
+                <img src="{{ Vite::asset('public/img/footer-twitter.png')}}" alt="">
+                <img src="{{ Vite::asset('public/img/footer-youtube.png')}}" alt="">
+                <img src="{{ Vite::asset('public/img/footer-pinterest.png')}}" alt="">
+                <img src="{{ Vite::asset('public/img/footer-periscope.png')}}" alt="">
             </div>
         </div>
     </div>
