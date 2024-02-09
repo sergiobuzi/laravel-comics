@@ -1,13 +1,15 @@
 <header>
     <nav>
         <a href="#" class="logo">
-            <img alt="navbar-logo">
+            <img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="navbar-logo">
         </a>
-
+        
         <ul id="nav-items">
-            <li >
-                <a href="#"></a>
-            </li>
+            @foreach ($links as $link)
+                <li >
+                    <a href="#">{{$link ["text"]}}</a>
+                </li>
+            @endforeach   
         </ul>
     </nav>
 </header>
