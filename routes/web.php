@@ -34,7 +34,8 @@ Route::get('/', function () {
             "text" => "COLLECTIBLES",
             "url" => "#",
             "current"=> false,
-        ],[
+        ],
+        [
             "text" => "VIDEOS",
             "url" => "#",
             "current"=> false,
@@ -273,7 +274,36 @@ Route::get('/', function () {
     ];
 
 
-    return view('pages.index', compact("links", "comics"));
+    $items = [
+        [
+            "text" => "DIGITAL COMICS",
+            "url" => "#",
+            "img" => '/public/img/buy-comics-digital-comics.png',
+        ],
+        [
+            "text" => "DC MERCHANDISE",
+            "url" => "#",
+            "img" => '/public/img/buy-comics-merchandise.png',
+        ],
+        [
+            "text" => "SUBSCRIPTION",
+            "url" => "#",
+            "img" => '../public/img/buy-comics-subscriptions.png',
+        ],
+        [
+            "text" => "COMIC SHOP LOCATOR",
+            "url" => "#",
+            "img" => '../public/img/buy-comics-shop-locator.png',
+        ],
+        [
+            "text" => "DC POWER VISA",
+            "url" => "#",
+            "img" => '../public/img/buy-dc-power-visa.svg',
+        ]
+    ];
+
+
+    return view('pages.index', compact("links", "comics", "items"));
 });
 
 

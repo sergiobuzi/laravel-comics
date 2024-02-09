@@ -131,3 +131,109 @@ main{
         }
     }
 }
+
+// //////////
+// FOOTER //
+///////////
+#container-s{
+    background-color: #0383f9;
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.shop-img{
+    color: white;
+    width: 50px;
+    height: 65px;
+}
+
+
+
+#container-f{
+    background-image:url(/public/img/footer-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    ul{
+        font-weight: 600;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        
+
+        li{
+            color: grey;
+            font-weight: 100;
+            list-style-type: none;
+            padding-bottom: 5px;
+            font-size: 15px;
+        }
+
+        li:hover,
+        li:active{
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+#box-ul{
+ display: flex;
+}
+
+#img-container{
+    background-image: url(/public/img/dc-logo-bg.png);
+    height: 100%;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+// parte inferiore con i social
+
+#social-section{
+    background-color: #313031;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#button{
+    padding: 10px;
+    border: 2px #0383f9 solid;
+    cursor: pointer;
+}
+
+#socials{
+    color: #0383f9;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+}

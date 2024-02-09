@@ -20,7 +20,7 @@
                 <div class="card">
 
                     <img src="{{$item ["thumb"]}}" alt="" class="img-thumb">
-                    <div class="card-text"></div>
+                    <div class="card-text">{{$item ["title"]}}</div>
                 
                 </div>
               
